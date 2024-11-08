@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle, #1f1f47, #0d0d2a);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main Container */
+  .homepage-container {
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background: rgba(30, 30, 60, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3);
+  }
+  
+  /* Title */
+  .main-title {
+    font-size: 48px;
+    color: #00ffff;
+    text-shadow: 0 0 20px #00ffff, 0 0 40px #0077ff;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Section */
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #141625;
+    color: #00ffff;
+    box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.4);
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background: linear-gradient(45deg, #00f5ff, #0077ff);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00f5ff;
+    transition: 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background: linear-gradient(45deg, #00d4ff, #0055ff);
+    box-shadow: 0 0 20px #00d4ff, 0 0 30px #0055ff;
+  }
+  
+  /* Upload Button */
+  .upload-button {
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff00d4, #7700ff);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff00d4, 0 0 40px #7700ff;
+    margin-top: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(45deg, #ff33d4, #5500ff);
+    box-shadow: 0 0 30px #ff33d4, 0 0 50px #5500ff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 36px;
+    }
+  
+    .search-bar {
+      width: 90%;
+    }
+  
+    .search-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
