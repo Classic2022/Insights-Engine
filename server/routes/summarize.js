@@ -9,7 +9,6 @@ const router = express.Router();
 
 const openai = new OpenAIApi({
   apiKey: process.env.OPENAI_API_KEY,
-  // "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",
 });
 
 // Configure multer to store file in memory
