@@ -1,10 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv"); // Ensure dotenv is imported
+dotenv.config(); // Load .env variables
 
 const summarizeRoutes = require("./routes/summarize"); // Correct path to summarize.js
-
-dotenv.config(); // Load .env variables
 
 const app = express();
 
