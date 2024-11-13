@@ -6,7 +6,7 @@ const pdfParse = require("pdf-parse");
 const router = express.Router();
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY, // Load API key from environment variable
+  //apiKey: process.env.OPENAI_API_KEY, // Load API key from environment variable
 });
 
 const openai = new OpenAIApi(configuration);
